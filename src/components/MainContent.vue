@@ -113,7 +113,7 @@ export default {
         {
           textureWidth: 5000,
           textureHeight: 5000,
-          waterNormals: new THREE.TextureLoader().load( '../assets/textures/waternormals.jpg', function ( texture ) {
+          waterNormals: new THREE.TextureLoader().load( '${publicPath}textures/waternormals.jpg', function ( texture ) {
 
             texture.wrapS = texture.wrapT = THREE.RepeatWrapping;
 
@@ -239,7 +239,7 @@ export default {
 
       // TEXT
       const loader = new FontLoader();
-      loader.load( '../assets/fonts/helvetiker_regular.typeface.json', function ( font ) {
+      loader.load( '${publicPath}fonts/helvetiker_regular.typeface.json', function ( font ) {
 
         const textGeo1 = new TextGeometry( 'Congratulations', {
           font: font,
@@ -373,7 +373,7 @@ export default {
 
       // MODEL LOADER
       const modelLoader = new GLTFLoader();
-      const url = '../assets/models/Stork.glb';
+      const url = '${publicPath}models/Stork.glb';
       modelLoader.load(
         url,
         function( glb ) {
