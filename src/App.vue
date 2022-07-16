@@ -15,6 +15,7 @@ export default {
   }
 }
 
+const alert9 = 'Opening on your PC or using a mouse on your phone is recommended.'
 
 const alert0 = 'How to operate (Mouse)\n\n'
 const alert1 = '1. Moving the pointer:  Changing the direction you are looking\n';
@@ -26,7 +27,7 @@ const alert6 = '2 = Double-tap (long press for the second tap with a single fing
 const alert7 = '3 = Double-tap (two fingers for the first tap and long press for the second tap with a single finger)\n';
 const alert8 = '4 = Double-tap (three fingers for the first tap and long press for the second tap with a single finger)';
 
-const Alert = alert0 + alert1 + alert2 + alert3 + alert4 + alert5 + alert6 + alert7 + alert8;
+const Alert = alert9 + alert0 + alert1 + alert2 + alert3 + alert4 + alert5 + alert6 + alert7 + alert8;
 
 alert(Alert);
 </script>
