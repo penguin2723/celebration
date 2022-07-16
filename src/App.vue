@@ -15,7 +15,7 @@ export default {
   }
 }
 
-const alert9 = 'Opening on your PC or using a mouse on your phone is recommended.'
+const alert9 = 'Opening on your PC or using a mouse on your phone is recommended. \n\n'
 
 const alert0 = 'How to operate (Mouse)\n\n'
 const alert1 = '1. Moving the pointer:  Changing the direction you are looking\n';
