@@ -326,7 +326,7 @@ export default {
         scene.add( text3 );
 
 
-        const textGeo4 = new TextGeometry( 'many more successes.', {
+        const textGeo4 = new TextGeometry( 'many more successes', {
           font: font,
           size: 200,
           height: 50,
