@@ -373,7 +373,7 @@ export default {
 
       // MODEL LOADER
       const modelLoader = new GLTFLoader();
-      const url = './models/Stork.glb';
+      const url = './models/Horse.glb';
       modelLoader.load(
         url,
         function( glb ) {
